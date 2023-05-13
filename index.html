@@ -3,62 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>쿠팡.info</title> 
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to bottom, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+    }
+    h1 {
+      text-align: center;
+    }
+    .iframes-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .vertical-iframes {
+      margin-bottom: 30px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <div id="rainbow-background"></div>
-  <header>
-    <h1>쿠팡.info</h1>
-  </header>
-  <main>
-    <div class="iframe-container-single">
-      <iframe src="https://coupa.ng/cdPmUE" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-    </div>
+
+  <h1>쿠팡.info</h1>
+
+  <div class="iframes-container">
+    <iframe src="https://coupa.ng/cdPmUE" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+  </div>
+<hr>
+  <div class="iframes-container">
+    <iframe src="https://ads-partners.coupang.com/widgets.html?id=623533&template=banner&trackingCode=AF7833658&subId=&width=150&height=60" width="150" height="60" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+    
+    <iframe src="https://ads-partners.coupang.com/widgets.html?id=623699&template=banner&trackingCode=AF7833658&subId=&width=150&height=60" width="150" height="60" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+  </div>
+<hr>
+  
+  <div class="iframes-container vertical-iframes">
+    <iframe src="https://ads-partners.coupang.com/widgets.html?id=662318&template=carousel&trackingCode=AF7833658&subId=&width=680&height=140" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
     <hr>
-    <div class="iframe-container">
-      <iframe src="https://ads-partners.coupang.com/widgets.html?id=623533&template=banner&trackingCode=AF7833658&subId=&width=150&height=60" width="150" height="60" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-      <iframe src="https://ads-partners.coupang.com/widgets.html?id=623699&template=banner&trackingCode=AF7833658&subId=&width=150&height=60" width="150" height="60" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-    </div>
-    <hr>
-    <div class="iframe-container-single">
-      <iframe src="https://ads-partners.coupang.com/widgets.html?id=662318&template=carousel&trackingCode=AF7833658&subId=&width=680&height=140" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-    </div>
-    <hr>
-    <div class="iframe-container-single">
     <iframe src="https://ads-partners.coupang.com/widgets.html?id=662333&template=carousel&trackingCode=AF7833658&subId=&width=680&height=140" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-    </div>
     <hr>
-    <div class="iframe-container-single">
     <iframe src="https://ads-partners.coupang.com/widgets.html?id=662320&template=carousel&trackingCode=AF7833658&subId=&width=680&height=140" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-      </div>
     <hr>
-    <div class="iframe-container-single">
     <iframe src="https://ads-partners.coupang.com/widgets.html?id=662324&template=carousel&trackingCode=AF7833658&subId=&width=680&height=140" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-    </div>
     <hr>
     <iframe src="https://ads-partners.coupang.com/widgets.html?id=662332&template=carousel&trackingCode=AF7833658&subId=&width=680&height=140" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-      </div>
-     
-    <div class="calculator-container container">
-  <div class="calculator" id="calculator">
-    <!-- 예쁜 계산기 내용이 들어갈 부분입니다. -->
   </div>
-  <div class="d-day" id="d-day">
-    <!-- 디데이 계산기 내용이 들어갈 부분입니다. -->
-  </div>
-</div>
-<!-- 달력 부분을 변경하세요. -->
-<div class="calendar-container container">
-  <div class="calendar" id="calendar">
-    <!-- 달력 내용이 들어갈 부분입니다. -->
-  </div>
-</div>
 
-  </main>
   <footer>
-  <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-</footer>
-  <script src="scripts.js"></script>
+    이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+  </footer>
+
 </body>
 </html>
