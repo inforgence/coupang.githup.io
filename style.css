@@ -51,6 +51,7 @@ header {
   padding: 1.5rem;
   width: 100%;
   box-sizing: border-box;
+   text-align: center; /* 추가된 스타일 */
 }
 
 h1 {
