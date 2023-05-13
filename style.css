@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #f2f2f2;
 }
+
 body:before {
   content: '';
   position: fixed;
@@ -24,33 +25,40 @@ header {
   justify-content: center;
   padding: 1.5rem;
 }
+
 h1 {
   margin: 0;
 }
+
 main {
   padding: 1rem;
 }
+
 .iframe-container-single {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
+
 .iframe-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
 iframe {
   width: 100%;
   max-width: 150px;
   height: 75px;
 }
+
 .calculator-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
 .calculator, .d-day {
   flex: 1;
   padding: 1rem;
@@ -58,9 +66,11 @@ iframe {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .calendar-container {
   margin-bottom: 1rem;
 }
+
 .calendar {
   background-color: white;
   padding: 1rem;
