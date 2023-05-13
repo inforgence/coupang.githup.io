@@ -6,7 +6,9 @@ body {
 header {
   background-color: #222;
   color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1.5rem;
 }
 h1 {
