@@ -1,20 +1,16 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
-  background-color: transparent;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  opacity: 0.5;
 }
 
-body:before {
-  content: ";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-  background-size: cover;
-  opacity: 0.5;
+.container {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 header {
