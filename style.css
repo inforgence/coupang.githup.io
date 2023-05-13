@@ -60,12 +60,14 @@ h1 {
  
 main {
   padding: 1rem;
+  max-width: 100%;
 }
 
 .iframe-container-single {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  overflow-x: auto; /* 스크롤 바를 추가하여 너무 넓은 아이프레임을 스크롤할 수 있게 함 */
 }
 
 .iframe-container {
